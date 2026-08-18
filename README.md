@@ -10,7 +10,7 @@ No preprocessing is allowed.
 <img src="assets/ex1.png" alt="Image 1" style="float: left; width: 20vw;" />
 <img src="assets/ex2.png" alt="Image 2" style="float: left; width: 35vw;" />
   <br>
-  Input on the left, desired output on the right.
+  Input combined image and desired output.
 </div>
 
 ## Task and Dataset
