@@ -1,16 +1,27 @@
 # Blind Source Separation
 
-The purpose of the project is to separate an image obtained as a sum of a two images into its components.
-The two images img1 and img2 summed together come from different dataset: mnist and fashion_mnist, respectively.
-No preprocessing is allowed. The network takes in input the sum img1+img2 and returns the predicted components hat_img1 and hat_img2.
-The metric used to evaluate the project is the mean squared error between predicted and ground truth images.
+## Deep Learning Lab Challenge at UniBo
 
-### Visual explanatation of the task
-On the left, the input mixed signal, while we want to train a deep neural network that can separate the signals as on the right.
+An image is given in input, which is the overlay of two samples from MNIST and Fashion MNIST. 
+The challenge consists into reconstructing the original images with a neural network, as closely as possible (according to mean squared error). 
+No preprocessing is allowed.
+
 <div align="center">
 <img src="assets/ex1.png" alt="Image 1" style="float: left; width: 20vw;" />
 <img src="assets/ex2.png" alt="Image 2" style="float: left; width: 35vw;" />
+  <br>
+  Input on the left, desired output on the right.
 </div>
 
-### Future improvements
-The use of an attention mechanism (layers) could improve the performances of the model.
+## Task and Dataset
+- Task: Train a neural network to solve the challenge.
+- Dataset: 70,000 images from MNIST and 70,000 images from Fashion MNIST
+- Combination algorithm: It is known that test images are just a weighted sum of two samples
+- Data format: 28×28 grayscale images
+
+## Methods
+- An autoencoder network is a good starting point
+- We choose a U-Net specifically
+
+## Future improvements
+At the end of the challenge, it was revealed that an attention mechanism is beneficial, to achieve maximum pixel level accuracy.
