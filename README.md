@@ -1,4 +1,4 @@
-# Overlay-Separation (_"BlindSourceSeparation"_)
+# Blind Source Separation (_"BSS"_) of MNIST sampels
 
 ## Deep Learning Lab Challenge at UniBo
 
