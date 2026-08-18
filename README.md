@@ -7,8 +7,8 @@ The challenge consists into reconstructing the original images with a neural net
 No preprocessing is allowed.
 
 <div align="center">
-<img src="assets/ex1.png" alt="Image 1" style="float: left; width: 20vw;" />
-<img src="assets/ex2.png" alt="Image 2" style="float: left; width: 35vw;" />
+<img src="assets/ex1.png" alt="Image 1" style="float: left; width: 10vw;" />
+<img src="assets/ex2.png" alt="Image 2" style="float: left; width: 18vw;" />
   <br>
   Input combined image and desired output.
 </div>
