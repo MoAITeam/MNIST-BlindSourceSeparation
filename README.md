@@ -1,4 +1,4 @@
-# Blind Source Separation
+# Overlay-Separation (_"BlindSourceSeparation"_)
 
 ## Deep Learning Lab Challenge at UniBo
 
