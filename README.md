@@ -3,7 +3,7 @@
 ## Deep Learning Lab Challenge at UniBo
 
 An image is given in input, which is the overlay of two samples from MNIST and Fashion MNIST. 
-The challenge consists into reconstructing the original images with a neural network, as closely as possible (according to mean squared error). 
+The challenge consists into reconstructing the original samples with a neural network, as closely as possible (according to mean squared error). 
 No preprocessing is allowed.
 
 <div align="center">
